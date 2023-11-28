@@ -52,18 +52,22 @@ export default {
 </script>
 
 <template>
-    <header class="d-flex">
-        <img src="../assets/img/dc-logo.png" alt="">
-        <nav class="d-flex gap-3 align-items-center">
-            <a class="text-decoration-none text-secondary fw-bold" v-for="link in menuLinks" :href="link.url">{{ link.text
-            }}</a>
-        </nav>
+    <header>
+        <div class="container d-flex justify-content-between">
+
+            <img src="../assets/img/dc-logo.png" alt="">
+            <nav class="d-flex gap-3 align-items-center">
+                <a class="text-decoration-none text-secondary fw-bold" v-for="link in menuLinks" :href="link.url">{{
+                    link.text
+                }}</a>
+            </nav>
+        </div>
     </header>
 </template>
 
 <style scoped>
 img {
     height: 5rem;
-    margin: 1rem 12rem;
+    margin: 1rem 0;
 }
 </style>

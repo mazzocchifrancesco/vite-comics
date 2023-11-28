@@ -12,7 +12,9 @@ export default {
 
 <template>
     <div>
-        "content goes here"
+        <div class="container">
+            "content goes here"
+        </div>
     </div>
 </template>
 
