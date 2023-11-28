@@ -14,7 +14,7 @@ export default {
                 },
                 {
                     title: "subscription",
-                    img: "../src/assets/img/buy-comics-subscription.png"
+                    img: "../src/assets/img/buy-comics-subscriptions.png"
                 },
                 {
                     title: "comic shop locator",
@@ -36,7 +36,7 @@ export default {
         <div class="container d-flex justify-content-between">
             <div class="d-flex align-items-center" id="linkCard" v-for="element in BarLinks">
                 <img :src="element.img" alt="">
-                <p class="text-white fw-semibold text-uppercase ms-3">{{ element.title }}</p>
+                <a href="#" class="text-white fw-semibold text-uppercase ms-3 text-decoration-none">{{ element.title }}</a>
             </div>
         </div>
     </div>

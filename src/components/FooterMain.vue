@@ -35,8 +35,9 @@ export default {
             <div id="linkContainer" class=" d-flex flex-wrap gap-5">
                 <div v-for="element in Card" class="d-flex flex-column">
                     <h3 class="text-uppercase text-white">{{ element.title }}</h3>
-                    <a class="text-capitalize text-decoration-none text-secondary" v-for="link in element.links"> {{ link
-                    }}</a>
+                    <a href="#" class="text-capitalize text-decoration-none text-secondary" v-for="link in element.links">
+                        {{ link
+                        }}</a>
                 </div>
             </div>
         </div>
